@@ -23,8 +23,6 @@ def compute_error_given_points(b,m,points): #SS ERROR
 # d/dM = 2/N SUM[N,i=1] -Xi(Yi - (MXi + B))
 # d/dB = 2/N SUM[N,i=1] -(Yi-(MXi+B))
 
-
-
 def step_gradient(b_current, m_current, points, learning_rate):
     b_gradient = 0
     m_gradient = 0
